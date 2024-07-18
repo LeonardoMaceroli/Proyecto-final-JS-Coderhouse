@@ -1,6 +1,6 @@
 let usuariosRegistrados = [];
 
-fetch("../data/usuarios.json")
+fetch("./data/usuarios.json")
     .then(response => response.json())
     .then(datos => {
         usuariosRegistrados = datos;

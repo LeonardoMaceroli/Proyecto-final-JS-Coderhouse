@@ -47,7 +47,7 @@ if (loginForm) {
                     icon: "success",
                 });
                 setTimeout(() => {
-                    window.location.href = "../pages/juego.html";
+                    window.location.href = "./pages/juego.html";
                 }, 3000);
             } else {
                 Swal.fire({

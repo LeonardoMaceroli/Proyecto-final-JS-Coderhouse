@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffebcd;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+.titulo-credenciales {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.formulario h1 {
+    margin: 0;
+}
+
+.formulario .credenciales {
+    color: #525252;
+    background-color: gray;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+}
+
+.formulario .credenciales label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.formulario .credenciales input,
+.formulario .credenciales textarea {
+    width: calc(100% - 16px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+
+.boton{
+    cursor: pointer;
+    background-color: #ffebcd;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+    font-size: 1rem;
+}
+
+.boton:hover{
+    background-color: #f9d39f;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.credenciales{
+    align-items: center;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+}
+
+.inicio img {
+    float: left;
+    margin-right: 10px;
+    width: 30%;
+}
+
+.parrafo {
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.opcion {
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.estadisticas {
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+    background-color: gray; 
+    margin-left: 10px;
+}
+
+.estadistica {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: -1px;
+}
+
+button{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
